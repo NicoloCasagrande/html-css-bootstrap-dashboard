@@ -17,3 +17,6 @@ main{
     background-color: #185bb9;
 }
 
+.card:last-of-type img{
+    width: 100%;
+}

@@ -36,6 +36,12 @@ header{
     width: 15.625rem;
 }
 
+.ms-btn{
+    border: none;
+    background-color: transparent;
+    color: #ff8f00;
+}
+
 @media screen and (max-width: 992px) {
     .icons{
         width: 4.375rem;
