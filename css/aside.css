@@ -21,6 +21,9 @@ aside{
 aside i{
     margin-right: .4375rem;
 }
+.ms-row-column{
+    height: 100%;
+}
 
 aside .ms-row-column div:hover i{
     color: gray;
