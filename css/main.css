@@ -1,0 +1,9 @@
+main{
+    background-color: bisque;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.ms-row-column{
+    flex-direction: column;
+}

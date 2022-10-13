@@ -1,0 +1,63 @@
+header{
+    height: 4.375rem;
+    background-color: #f8f9fa;
+}
+
+.ms-container-custom{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.ms-row-100-w{
+    width: 100%;
+}
+
+.page-container{
+    height: calc(100vh - 4.375rem);
+    display: flex;
+}
+
+.logo{
+    height: 100%;
+    width: 15.625rem;
+}
+
+.logo img{
+    height: 100%;
+}
+
+.logo img:nth-of-type(2){
+    width: 100%
+}
+
+.icons{
+    width: 15.625rem;
+}
+
+@media screen and (max-width: 768px) {
+    .icons{
+        width: 4.375rem;
+        display: flex;
+        align-items: center;
+    }
+    .logo{
+        width: 4.375rem;
+    }
+}
+
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header li{
+    margin: 0 .3125rem;
+}
+
+header li a{
+    color: #5a5858;
+}
