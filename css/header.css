@@ -76,7 +76,8 @@ header li a{
 .search input{
     height: 100%;
     text-indent: 25px;
-    border: 2px solid #d6d4d4;
+    border: 1px solid #d6d4d4;
+    background-color: #e5e5e5;
 }
 
 .search input:focus{
