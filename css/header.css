@@ -74,7 +74,7 @@ header li a{
 }
 
 .search input{
-    height: 2.5rem;
+    height: 100%;
     text-indent: 25px;
     border: 2px solid #d6d4d4;
 }
@@ -88,4 +88,12 @@ header li a{
     position: absolute;
     top: .75rem;
     left: .75rem;
+}
+
+::-webkit-input-placeholder{
+    font-size: .875rem;
+}
+
+.ms-color-row{
+    background-color: white;
 }
