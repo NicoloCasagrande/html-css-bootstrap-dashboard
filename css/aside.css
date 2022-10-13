@@ -21,3 +21,12 @@ aside{
 aside i{
     margin-right: .4375rem;
 }
+
+aside .ms-row-column div:hover i{
+    color: gray;
+}
+
+aside .ms-row-column div:hover span, aside .ms-row-column div:hover i{
+    color: gray;
+    cursor: pointer;
+}
