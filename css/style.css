@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 4.375rem;
+    background-color: aquamarine;
+}
+
+.page-container{
+    height: calc(100vh - 4.375rem);
+    display: flex;
+}
+
+aside{
+    width: 12.5rem;
+    /* togliere la larghezza, deve cambiare con il nascondersi degli elmenti(vedi bootstrap) */
+    background-color: blueviolet;
+    flex-shrink: 0;
+}
+
+main{
+    background-color: bisque;
+    flex-grow: 1;
+    overflow-y: auto;
+}
