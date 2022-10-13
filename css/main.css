@@ -1,5 +1,5 @@
 main{
-    background-color: bisque;
+    background-color: #f8f9fa;
     flex-grow: 1;
     overflow-y: auto;
 }
@@ -7,3 +7,13 @@ main{
 .ms-row-column{
     flex-direction: column;
 }
+
+.ms-main-head{
+    background-color: #1c71e8;
+    color: white;
+}
+
+.ms-bg-primary{
+    background-color: #185bb9;
+}
+

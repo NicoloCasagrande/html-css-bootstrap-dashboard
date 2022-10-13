@@ -36,7 +36,7 @@ header{
     width: 15.625rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .icons{
         width: 4.375rem;
         display: flex;

@@ -1,8 +1,22 @@
 aside{
-    width: 12.5rem;
+    width: 4.375rem;
     /* togliere la larghezza, deve cambiare con il nascondersi degli elmenti(vedi bootstrap) */
     background-color: #061e34;
     flex-shrink: 0;
     color: white;
     padding-left: 1.875rem;
+}
+
+@media screen and (min-width:992px) {
+    aside{
+        width: 12.5rem;
+    }
+}
+
+.ms-fa-chart{
+    width: 1.125rem;
+}
+
+aside i{
+    margin-right: .4375rem;
 }
