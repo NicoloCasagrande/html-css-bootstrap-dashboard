@@ -49,3 +49,7 @@ tr td div:last-child i:first-child:hover, tr td div:last-child i:nth-child(2):ho
     color: gray;
     cursor: pointer;
 }
+
+.ms-card-header{
+    justify-content: space-between;
+}
