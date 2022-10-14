@@ -53,3 +53,15 @@ tr td div:last-child i:first-child:hover, tr td div:last-child i:nth-child(2):ho
 .ms-card-header{
     justify-content: space-between;
 }
+
+.ms-btn-add{
+    color: blue;
+    font-size: 1.25rem;
+    border: 1px solid blue;
+}
+
+.ms-btn-add:hover{
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+}
